@@ -1,0 +1,40 @@
+module.exports = {
+  lang: {
+    locale: "pt_BR",
+    placeholder: "Selecione a Data",
+    rangePlaceholder: ["Início", "Final"],
+    today: "Hoje",
+    now: "Agora",
+    backToToday: "Voltar para hoje",
+    ok: "Ok",
+    clear: "Apagar",
+    month: "Mês",
+    year: "Ano",
+    timeSelect: "Selecione a hora",
+    dateSelect: "Selecione a data",
+    monthSelect: "Escolha o mês",
+    yearSelect: "Escolha o ano",
+    decadeSelect: "Escolha a década",
+    yearFormat: "YYYY",
+    dateFormat: "D/M/YYYY",
+    dayFormat: "D",
+    dateTimeFormat: "D/M/YYYY HH:mm:ss",
+    monthFormat: "MMMM",
+    monthBeforeYear: true,
+    previousMonth: "Mês Anterior (PageUp)",
+    nextMonth: "Próximo mês (PageDown)",
+    previousYear: "Último ano (Control + left)",
+    nextYear: "Próximo ano (Control + right)",
+    previousDecade: "Última década",
+    nextDecade: "Próxima década",
+    previousCentury: "Último século",
+    nextCentury: "Próximo século"
+  },
+  timePickerLocale: {
+    placeholder: "Selecione a hora"
+  },
+  dateFormat: "YYYY-MM-DD",
+  dateTimeFormat: "YYYY-MM-DD HH:mm:ss",
+  weekFormat: "YYYY-wo",
+  monthFormat: "YYYY-MM"
+};

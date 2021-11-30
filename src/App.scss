@@ -1,0 +1,54 @@
+.site-page-header {
+  border: 0;
+  background: #ffffff !important;
+  height: 66px !important;
+}
+
+.site-layout-background {
+  background: #ffffff !important;
+}
+
+.container {
+  padding: 20px;
+  background: #ffffff;
+  margin-top: 1px;
+}
+.logo {
+  width: 80%;
+  margin: 20px auto;
+  display: block;
+}
+
+.completed {
+  color: #9f0000;
+}
+
+.actived {
+  color: #00b853;
+}
+
+span.ant-layout-sider-zero-width-trigger.ant-layout-sider-zero-width-trigger-left {
+  top: 10px;
+  background: #001529;
+  z-index: 2;
+  position: fixed;
+  left: 200px;
+}
+
+.ant-layout-sider-collapsed span.ant-layout-sider-zero-width-trigger.ant-layout-sider-zero-width-trigger-left {
+  top: 10px;
+  background: #001529;
+  z-index: 2;
+  position: fixed;
+  left: 0;
+}
+
+.ant-menu-inline.ant-menu-root .ant-menu-item > .ant-menu-title-content,
+.ant-menu-inline.ant-menu-root .ant-menu-submenu-title > .ant-menu-title-content {
+  overflow: unset !important;
+}
+
+img.logoDesktop {
+  margin: 20px auto;
+  display: block;
+}

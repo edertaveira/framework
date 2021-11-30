@@ -1,0 +1,58 @@
+img.logo-sidebar {
+  width: 100%;
+  padding: 5px 63px 20px;
+}
+.area-logged {
+  padding: 10px 25px;
+  bottom: 0;
+  color: #fff;
+  width: 200px;
+  border-bottom: 1px solid #10456b;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.area-logged .anticon {
+  margin-top: 6px;
+  margin-right: 6px;
+  font-size: 18px;
+}
+.area-logged .ant-btn {
+  float: right;
+  margin-top: 5px;
+}
+.ant-menu-item svg {
+  min-width: 14px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.ant-menu-item > span {
+  max-width: 14px;
+}
+
+.area-logged span small {
+  font-size: 9px;
+  margin-top: -5px;
+  float: left;
+  color: bisque;
+}
+
+.area-nome {
+  margin-right: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.ant-menu-inline-collapsed .ant-menu-item a span {
+  display: none;
+}
+.ant-layout-sider-collapsed .area-logged > span {
+  display: none;
+}
+.ant-layout-sider-collapsed .area-logged button {
+  margin-left: -5px;
+}
